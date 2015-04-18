@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AAC9CF591AE2A6A4004A9970 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC9CF581AE2A6A4004A9970 /* AppDelegate.swift */; };
+		AAC9CF5B1AE2A6A4004A9970 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC9CF5A1AE2A6A4004A9970 /* ViewController.swift */; };
+		AAC9CF5E1AE2A6A4004A9970 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAC9CF5C1AE2A6A4004A9970 /* Main.storyboard */; };
+		AAC9CF601AE2A6A4004A9970 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAC9CF5F1AE2A6A4004A9970 /* Images.xcassets */; };
+		AAC9CF631AE2A6A4004A9970 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AAC9CF611AE2A6A4004A9970 /* LaunchScreen.xib */; };
+		AAC9CF6F1AE2A6A4004A9970 /* chessprotrainerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC9CF6E1AE2A6A4004A9970 /* chessprotrainerTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AAC9CF691AE2A6A4004A9970 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAC9CF4B1AE2A6A4004A9970 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAC9CF521AE2A6A4004A9970;
+			remoteInfo = chessprotrainer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AAC9CF531AE2A6A4004A9970 /* chessprotrainer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chessprotrainer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAC9CF571AE2A6A4004A9970 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAC9CF581AE2A6A4004A9970 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AAC9CF5A1AE2A6A4004A9970 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AAC9CF5D1AE2A6A4004A9970 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AAC9CF5F1AE2A6A4004A9970 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AAC9CF621AE2A6A4004A9970 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		AAC9CF681AE2A6A4004A9970 /* chessprotrainerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = chessprotrainerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAC9CF6D1AE2A6A4004A9970 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAC9CF6E1AE2A6A4004A9970 /* chessprotrainerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chessprotrainerTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AAC9CF501AE2A6A4004A9970 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAC9CF651AE2A6A4004A9970 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AAC9CF4A1AE2A6A4004A9970 = {
+			isa = PBXGroup;
+			children = (
+				AAC9CF551AE2A6A4004A9970 /* chessprotrainer */,
+				AAC9CF6B1AE2A6A4004A9970 /* chessprotrainerTests */,
+				AAC9CF541AE2A6A4004A9970 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AAC9CF541AE2A6A4004A9970 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAC9CF531AE2A6A4004A9970 /* chessprotrainer.app */,
+				AAC9CF681AE2A6A4004A9970 /* chessprotrainerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AAC9CF551AE2A6A4004A9970 /* chessprotrainer */ = {
+			isa = PBXGroup;
+			children = (
+				AAC9CF581AE2A6A4004A9970 /* AppDelegate.swift */,
+				AAC9CF5A1AE2A6A4004A9970 /* ViewController.swift */,
+				AAC9CF5C1AE2A6A4004A9970 /* Main.storyboard */,
+				AAC9CF5F1AE2A6A4004A9970 /* Images.xcassets */,
+				AAC9CF611AE2A6A4004A9970 /* LaunchScreen.xib */,
+				AAC9CF561AE2A6A4004A9970 /* Supporting Files */,
+			);
+			path = chessprotrainer;
+			sourceTree = "<group>";
+		};
+		AAC9CF561AE2A6A4004A9970 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AAC9CF571AE2A6A4004A9970 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AAC9CF6B1AE2A6A4004A9970 /* chessprotrainerTests */ = {
+			isa = PBXGroup;
+			children = (
+				AAC9CF6E1AE2A6A4004A9970 /* chessprotrainerTests.swift */,
+				AAC9CF6C1AE2A6A4004A9970 /* Supporting Files */,
+			);
+			path = chessprotrainerTests;
+			sourceTree = "<group>";
+		};
+		AAC9CF6C1AE2A6A4004A9970 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AAC9CF6D1AE2A6A4004A9970 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AAC9CF521AE2A6A4004A9970 /* chessprotrainer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAC9CF721AE2A6A4004A9970 /* Build configuration list for PBXNativeTarget "chessprotrainer" */;
+			buildPhases = (
+				AAC9CF4F1AE2A6A4004A9970 /* Sources */,
+				AAC9CF501AE2A6A4004A9970 /* Frameworks */,
+				AAC9CF511AE2A6A4004A9970 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = chessprotrainer;
+			productName = chessprotrainer;
+			productReference = AAC9CF531AE2A6A4004A9970 /* chessprotrainer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AAC9CF671AE2A6A4004A9970 /* chessprotrainerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAC9CF751AE2A6A4004A9970 /* Build configuration list for PBXNativeTarget "chessprotrainerTests" */;
+			buildPhases = (
+				AAC9CF641AE2A6A4004A9970 /* Sources */,
+				AAC9CF651AE2A6A4004A9970 /* Frameworks */,
+				AAC9CF661AE2A6A4004A9970 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAC9CF6A1AE2A6A4004A9970 /* PBXTargetDependency */,
+			);
+			name = chessprotrainerTests;
+			productName = chessprotrainerTests;
+			productReference = AAC9CF681AE2A6A4004A9970 /* chessprotrainerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AAC9CF4B1AE2A6A4004A9970 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = InspireOn;
+				TargetAttributes = {
+					AAC9CF521AE2A6A4004A9970 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					AAC9CF671AE2A6A4004A9970 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = AAC9CF521AE2A6A4004A9970;
+					};
+				};
+			};
+			buildConfigurationList = AAC9CF4E1AE2A6A4004A9970 /* Build configuration list for PBXProject "chessprotrainer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AAC9CF4A1AE2A6A4004A9970;
+			productRefGroup = AAC9CF541AE2A6A4004A9970 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AAC9CF521AE2A6A4004A9970 /* chessprotrainer */,
+				AAC9CF671AE2A6A4004A9970 /* chessprotrainerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AAC9CF511AE2A6A4004A9970 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAC9CF5E1AE2A6A4004A9970 /* Main.storyboard in Resources */,
+				AAC9CF631AE2A6A4004A9970 /* LaunchScreen.xib in Resources */,
+				AAC9CF601AE2A6A4004A9970 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAC9CF661AE2A6A4004A9970 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AAC9CF4F1AE2A6A4004A9970 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAC9CF5B1AE2A6A4004A9970 /* ViewController.swift in Sources */,
+				AAC9CF591AE2A6A4004A9970 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAC9CF641AE2A6A4004A9970 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAC9CF6F1AE2A6A4004A9970 /* chessprotrainerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AAC9CF6A1AE2A6A4004A9970 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAC9CF521AE2A6A4004A9970 /* chessprotrainer */;
+			targetProxy = AAC9CF691AE2A6A4004A9970 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AAC9CF5C1AE2A6A4004A9970 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAC9CF5D1AE2A6A4004A9970 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AAC9CF611AE2A6A4004A9970 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAC9CF621AE2A6A4004A9970 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AAC9CF701AE2A6A4004A9970 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AAC9CF711AE2A6A4004A9970 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AAC9CF731AE2A6A4004A9970 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = chessprotrainer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AAC9CF741AE2A6A4004A9970 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = chessprotrainer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AAC9CF761AE2A6A4004A9970 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = chessprotrainerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/chessprotrainer.app/chessprotrainer";
+			};
+			name = Debug;
+		};
+		AAC9CF771AE2A6A4004A9970 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = chessprotrainerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/chessprotrainer.app/chessprotrainer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AAC9CF4E1AE2A6A4004A9970 /* Build configuration list for PBXProject "chessprotrainer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAC9CF701AE2A6A4004A9970 /* Debug */,
+				AAC9CF711AE2A6A4004A9970 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAC9CF721AE2A6A4004A9970 /* Build configuration list for PBXNativeTarget "chessprotrainer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAC9CF731AE2A6A4004A9970 /* Debug */,
+				AAC9CF741AE2A6A4004A9970 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AAC9CF751AE2A6A4004A9970 /* Build configuration list for PBXNativeTarget "chessprotrainerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAC9CF761AE2A6A4004A9970 /* Debug */,
+				AAC9CF771AE2A6A4004A9970 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AAC9CF4B1AE2A6A4004A9970 /* Project object */;
+}
